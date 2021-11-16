@@ -1,0 +1,9 @@
+.profile-card {
+  background-color: hsl(235, 46%, 20%);
+  color: #fff;
+  width: 350px;
+}
+
+.profile-card img {
+  width: 30%;
+}
