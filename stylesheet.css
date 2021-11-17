@@ -1,7 +1,7 @@
 .profile-card {
   background-color: hsl(235, 46%, 20%);
   color: #fff;
-  width: 350px;
+  width: 250px;
   border-radius: 15px;
 }
 
@@ -11,12 +11,20 @@
 }
 
 .profile-card img {
-  width: 30%;
+  width: 25%;
+  padding: 25px;
 }
 
 p {
   font-family: "Rubik", sans-serif;
   font-weight: 300;
+  margin: 0;
+}
+
+.profile-card p {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 7px;
 }
 
 .report-for {
@@ -26,5 +34,16 @@ p {
 
 .name {
   font-weight: 200;
-  font-size: 30px;
+  font-size: 35px;
+  padding-bottom: 70px;
+}
+
+.profile-card-options {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-card-options p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
