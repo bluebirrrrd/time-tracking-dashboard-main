@@ -58,7 +58,6 @@ p {
 }
 
 .grid-item {
-  /*background-color: hsl(235, 46%, 20%);*/
   color: #fff;
   border-radius: 15px;
 }
@@ -67,6 +66,8 @@ p {
   border-radius: 15px;
   background-color: hsl(235, 46%, 20%);
   padding: 25px;
+  position: relative;
+  top: -30px;
 }
 
 .card-body p {
