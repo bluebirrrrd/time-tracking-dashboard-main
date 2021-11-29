@@ -65,14 +65,16 @@ p {
 .card-body {
   border-radius: 15px;
   background-color: hsl(235, 46%, 20%);
-  padding: 25px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   position: relative;
   top: -30px;
 }
 
 .card-body p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 25px;
 }
 
 #item1 {
@@ -116,4 +118,8 @@ p {
 
 .activity-titles {
   font-size: 18px;
+}
+
+.time {
+  font-size: 300%;
 }
